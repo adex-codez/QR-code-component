@@ -576,6 +576,14 @@ video {
   height: 125vh;
 }
 
+.h-\[1\] {
+  height: 1;
+}
+
+.h-\[115\] {
+  height: 115;
+}
+
 .max-h-\[1\] {
   max-height: 1;
 }
@@ -588,8 +596,24 @@ video {
   max-height: 120vh;
 }
 
+.max-h-\[100vh\] {
+  max-height: 100vh;
+}
+
 .min-h-\[120vh\] {
   min-height: 120vh;
+}
+
+.min-h-\[110vh\] {
+  min-height: 110vh;
+}
+
+.min-h-\[1o0vh\] {
+  min-height: 1o0vh;
+}
+
+.min-h-\[100vh\] {
+  min-height: 100vh;
 }
 
 .w-\[\] {
@@ -852,6 +876,34 @@ body{
 }
 
 @media (min-width: 1280px) {
+  .xl\:h-\[\] {
+    height: ;
+  }
+
+  .xl\:h-\[116\] {
+    height: 116;
+  }
+
+  .xl\:h-\[115\] {
+    height: 115;
+  }
+
+  .xl\:h-\[115vh\] {
+    height: 115vh;
+  }
+
+  .xl\:h-\[11vh\] {
+    height: 11vh;
+  }
+
+  .xl\:h-\[110vh\] {
+    height: 110vh;
+  }
+
+  .xl\:h-\[100vh\] {
+    height: 100vh;
+  }
+
   .xl\:w-\[\] {
     width: ;
   }
@@ -866,5 +918,27 @@ body{
 
   .xl\:w-\[40\%\] {
     width: 40%;
+  }
+
+  .xl\:w-\[\\0\%\] {
+    width: \0%;
+  }
+
+  .xl\:w-\[\\30\%\] {
+    width: \30%;
+  }
+
+  .xl\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .xl\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
