@@ -79,7 +79,7 @@
     "thenify": "^3.3.1"
   },
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    
   },
   "repository": {
     "type": "git",
